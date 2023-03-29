@@ -24,9 +24,3 @@ class MovingAverage:
         self.w_sum = self.w_sum - tail+val
         return self.w_sum / min(self.size,self.counter)
 
-        
-
-
-# Your MovingAverage object will be instantiated and called as such:
-# obj = MovingAverage(size)
-# param_1 = obj.next(val)
