@@ -1,4 +1,4 @@
-class Solution:
+class Sol:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         total_prod = 1
         result = []
