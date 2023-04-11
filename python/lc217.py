@@ -2,6 +2,7 @@ class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         # if len(nums) <= 1:
         #     return True 
+        #class
         nums.sort()
         left = 0
         right =  left + 1
