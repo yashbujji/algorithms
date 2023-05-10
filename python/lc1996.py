@@ -16,3 +16,4 @@ class Solution:
             if idx != 0:
                 for _ in range(idx): sl.pop(0) # Step 8 removal part
         return ans
+    #1996
